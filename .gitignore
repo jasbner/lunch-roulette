@@ -1,0 +1,12 @@
+# Signing key password (the key itself lives in ~/.config/lunch-roulette/)
+android/keystore.properties
+*.jks
+*.keystore
+# Where the office is
+office.json
+# Build output; the APK is published as a GitHub release instead
+android/build/
+android/dist/
+*.apk
+*.idsig
+__pycache__/
